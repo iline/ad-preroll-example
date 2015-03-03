@@ -69,7 +69,7 @@ package {
             loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onLoadComplete);
 
             var context:LoaderContext = new LoaderContext(false, new ApplicationDomain());
-            var adrequest:URLRequest = new URLRequest("//r.mradx.net/img/F0/75F019.swf");
+            var adrequest:URLRequest = new URLRequest("//ad.mail.ru/static/vkcontainer.swf");
             var requestParams : URLVariables = new URLVariables();
             requestParams['preview'] = '8';
             adrequest.data = requestParams;
